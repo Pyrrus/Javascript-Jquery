@@ -19,33 +19,23 @@
       <div class="row start">
         <div class="col-md-12">
           <form class="form-inline">
-            <div class="form-group">
+            <div class="form-group error">
               <label for="name">Name</label>
               <input type="text" class="form-control" id="name" placeholder="Jane Doe" />
             </div>
-            <div class="form-group">
+            <div class="form-group error">
               <label for="email">Email</label>
               <input type="email" class="form-control" id="email" placeholder="jane.doe@example.com" />
             </div>
-            <div class="form-group">
+            <div class="form-group error">
               <label for="phone">Phone</label>
               <input type="phone" class="form-control" id="phone" placeholder="111 111-1111" />
             </div>
-            <button type="submit" class="btn btn-default">Start suggestion</button>
+            <button type="button" id="start" class="btn btn-primary">Start suggestion</button>
           </form>
         </div>
       </div>
       <!-- end suggestion -->
-
-      <div class="row pro">
-        <div class="col-md-12">
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-              <span id="progress"></span>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <!-- start survey block 1 -->
       <div class="row survey1">
@@ -55,23 +45,23 @@
             <h2>Are you more into?</h2>
             <div class="radio">
               <label>
-				<input type="radio" name="SurOne" value="css" />
+				<input type="radio" class="1" name="Sur1" value="css" />
 				Work with users to make application easy and not need any form of tutorial to use.
 			  </label>
             </div>
             <div class="radio">
               <label>
-				<input type="radio" name="SurOne" value="java" />
+				<input type="radio" class="1" name="Sur1" value="java" />
 				Work on high level and low level technology in real time applications and others.
 			  </label>
             </div>
             <div class="radio">
               <label>
-				<input type="radio" name="SurOne" value="php" />
+				<input type="radio" class="1" name="Sur1" value="php" />
 				Work on high level web applications.
 			  </label>
             </div>
-            <button type="submit" class="btn btn-default">Next</button>
+            <button type="button" id="1" value="1" class="btn btn-primary pull-right next">Next</button>
           </form>
         </div>
       </div>
@@ -85,17 +75,18 @@
             <h2>Are you Frontend or Backend?</h2>
             <div class="radio">
               <label>
-				<input type="radio" name="SurTwo" value="front" />
+				<input type="radio" class="2" name="Sur2" value="front" />
 				work on how the page feel and looks. 
 			   </label>
             </div>
             <div class="radio">
               <label>
-				<input type="radio" name="SurTwo" value="back" />
+				<input type="radio" class="2" name="Sur2" value="back" />
 				work with getting information in high speed send back to the frontend. 
 			  </label>
             </div>
-            <button type="submit" class="btn btn-default">Next</button>
+            <button type="button" value="0" class="btn btn-warning pre">previous</button>
+            <button type="button" id="2" value="2" class="btn btn-primary pull-right next">Next</button>
           </form>
         </div>
       </div>
@@ -109,17 +100,18 @@
             <h2>Are you only what do one thing only like web?</h2>
             <div class="radio">
               <label>
-				<input type="radio" name="SurThree" value="no" />
+				<input type="radio" class="3" name="Sur3" value="no" />
 				No 
 			  </label>
             </div>
             <div class="radio">
               <label>
-				<input type="radio" name="SurThree" value="yes" />
+				<input type="radio" class="3" name="Sur3" value="yes" />
 				Yes
 				</label>
             </div>
-            <button type="submit" class="btn btn-default">Next</button>
+            <button type="button" value="1" class="btn btn-warning pre">previous</button>
+            <button type="button" id="3" value="3" class="btn btn-primary pull-right next">Next</button>
           </form>
         </div>
       </div>
@@ -133,17 +125,18 @@
             <h2>Are you more in user interface or like makes the programs?</h2>
             <div class="radio">
               <label>
-				<input type="radio" name="SurFour" value="user" />
+				<input type="radio" class="4" name="Sur4" value="user" />
 				User interface 
 			  </label>
             </div>
             <div class="radio">
               <label>
-				<input type="radio" name="SurFour" value="pro" />
+				<input type="radio" class="4" name="Sur4" value="pro" />
 				Programs
 			  </label>
             </div>
-            <button type="submit" class="btn btn-default">Next</button>
+            <button type="button" value="2" class="btn btn-warning pre">previous</button>
+            <button type="button" id="4" value="4" class="btn btn-primary pull-right next">Next</button>
           </form>
         </div>
       </div>
@@ -157,24 +150,25 @@
             <h2>Are you more in viewing images, and text or just texts for your works like API?</h2>
             <div class="radio">
               <label>
-				<input type="radio" name="SurFive" value="img" />
+				<input type="radio" class="5" name="Sur5" value="img" />
 				Viewing images, and text. 
 			  </label>
             </div>
             <div class="radio">
               <label>
-				<input type="radio" name="SurFive" value="text" />
+				<input type="radio" class="5" name="Sur5" value="text" />
 				Just text. 
 				</label>
             </div>
-            <button type="submit" class="btn btn-default">Next</button>
+            <button type="button" value="3" class="btn btn-warning pre">previous</button>
+            <button type="button" id="5" value="5" class="btn btn-primary pull-right next">Next</button>
           </form>
         </div>
       </div>
       <!-- end survey block 5 -->
 
       <!-- start ending -->
-      <div class="row ending">
+      <div class="row survey5">
         <div class="col-md-12">
           <div class="output">
 

@@ -2,7 +2,7 @@ body {
 	background-image: url("../img/01.jpg");
 }
 
-.survey1, .survey2, .survey3, .survey4, .survey5, .ending, .pro {
+.survey1, .survey2, .survey3, .survey4, .survey5, .survey6 {
 	display: none;
 }
 
