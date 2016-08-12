@@ -6,7 +6,7 @@
 
 ## Description
 
-This page uses survey giving the by the user infortmaion and give back to the user in suggestions for paths in Epicodus like C# or Java.
+This page uses survey questions giving the by the user infortmaion and give back to the user in suggestions for paths in Epicodus like C# or Java.
 
 ## Setup/Installation Requirements
 
