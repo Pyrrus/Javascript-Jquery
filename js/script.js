@@ -9,9 +9,9 @@ var data =
     	"3":"", 
     	"4":"",  
     	"5":"",
-    	"java": "Java can be uses in any form of systerm like mobile, web, and desktop application. Java was made in 1995. Java made in OOP (Object-oriented programming) in mind unlike C. Unlike other programming language like C++. Java main idea is once build, and it will work on any Systerm. Lastly, Java have many library to anything to getting information from PDF file and Xbox Kinect.",
-		"php": "PHP is most common backend language for the web. With php you can make high level web application to SaaS (Software as a Service) for your customer. Also, PHP have very good Framework and CMS (content management system) like Codeigniter, Laravel, and Wordpress. PHP have very good library like making QR Code, and getting information from excel file.",
-		"css": "Design have many name under it. The must common name is UX (User Experience). The user experience is subfield of program developer. the main job of UX is to make user good idea on application without using any outside source like asking for help or user have no idea how to start it. In this field you need do research in both users and make phototyping. With phototyping you can give the user get feedback. With feedback you can make any edits to phototyping like colors and removing/add some feature or redesign." 
+    	"java": "Java can be uses in any form of systerm like mobile, web, and desktop application. Java was made in 1995. Java made in OOP (Object-oriented programming) in mind unlike C. Unlike other programming language like C++. It main idea is once build, and it will work on any systerms. Lastly, Java have many libraries to anything to getting information from PDF file and Xbox Kinect.",
+		"php": "PHP is most common backend language for the web. With php you can make high level SaaS (Software as a Service) web application for your customer. Also, PHP have very good Framework and CMS (content management system) like Codeigniter, Laravel, and Wordpress. PHP have very good libraries like making QR Code, and getting information from excel file.",
+		"css": "Design have many name under it. The must common name is UX (User Experience). The UX is subfield of program developer. the main job of UX is to make user good idea on application without using any outside source like asking for help or user have no idea how to start it. In this field you need do research in both users and make phototyping. With phototyping you can give the user get feedback. With feedback you can make any edits to phototyping like colors and removing/add some feature or redesign." 
     };
 
 // to test the string have a data.
@@ -82,6 +82,11 @@ var suggestion = function() {
 		$("#topic").text("JAVA");
 		$("#text").text(data["java"]);
 	}
+
+	$("#pEmail").text(data["email"]);
+	$("#pPhone").text(data["phone"]);
+	$("#pName").text(data["name"]);
+
 }
 
 $(document).ready(function() {

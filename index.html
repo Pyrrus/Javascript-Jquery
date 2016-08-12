@@ -14,7 +14,6 @@
       <div class="jumbotron">
       <h1>Track Suggester</h1>
       <hr />
-
       <!-- start point for suggestion -->
       <div class="row start">
         <div class="col-md-12">
@@ -176,8 +175,14 @@
       <!-- start ending -->
       <div class="row survey6">
         <div class="col-md-12">
-          <h2>The suggestion is <span id="topic"></span></h2>
-          <p id="text"></p>
+          <div class="panel panel-default">
+			<div class="panel-heading"><h2>The suggestion is <span id="topic"></span></h2></div>
+			<div class="panel-body">
+			  <p id="text"></p>
+			  <p>This will send email to <span id="pEmail"></span> and will someone will call you at <span id="pPhone"></span> within two or three days. Have a good day <span id="pName"></span></p>
+			  <p>Thank you for taking this survey</p>
+			</div>
+		  </div>
         </div>
       </div>
       <!-- end ending -->
