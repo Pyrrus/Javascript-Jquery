@@ -22,7 +22,7 @@ This page uses survey questions giving the by the user infortmaion and give back
 
 ## Link
 
-http://pyrrus.github.io/JavaScript-Jquery
+http://pyrrus.github.io/Javascript-Jquery
 
 ### License
 
